@@ -31,6 +31,14 @@ return new class extends Migration
      */
     public function down()
     {
+        Schema::dropIfExists('factura_reportes');
+        Schema::dropIfExists('facturas');
+        Schema::dropIfExists('descuentos');
+        Schema::dropIfExists('compra_detalles');
+        Schema::dropIfExists('productos');
+        Schema::dropIfExists('compras');
+        Schema::dropIfExists('proveedores');
         Schema::dropIfExists('users');
+        Schema::dropIfExists('categorias');
     }
 };

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ccbd816a07b206f971042295b899d1ba",
+    "content-hash": "3d6be3667ef2074b21d605b1e5603dc9",
     "packages": [
         {
             "name": "brick/math",
@@ -940,6 +940,56 @@
                 }
             ],
             "time": "2022-10-26T14:07:24+00:00"
+        },
+        {
+            "name": "kodols/php-mysql-library",
+            "version": "v1.1.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/kodols/php-mysql-library.git",
+                "reference": "4da0531e89d3d4f306f2ed2a4c348e220badb453"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/kodols/php-mysql-library/zipball/4da0531e89d3d4f306f2ed2a4c348e220badb453",
+                "reference": "4da0531e89d3d4f306f2ed2a4c348e220badb453",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Kodols\\MySQL\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Edward",
+                    "email": "ed@kodols.com",
+                    "homepage": "http://www.kodols.com"
+                }
+            ],
+            "description": "A Simple MySQL Library for PHP",
+            "homepage": "http://www.kodols.com",
+            "keywords": [
+                "builder",
+                "database",
+                "mysql",
+                "pdo",
+                "php",
+                "query"
+            ],
+            "support": {
+                "issues": "https://github.com/kodols/php-mysql-library/issues",
+                "source": "https://github.com/kodols/php-mysql-library/tree/master"
+            },
+            "time": "2017-10-23T10:38:05+00:00"
         },
         {
             "name": "laravel/framework",
